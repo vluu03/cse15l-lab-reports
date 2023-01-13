@@ -5,3 +5,8 @@ This tutorial will show you how to connect your terminal to remote server.
 To begin this tutorial we will first need to get Visual Studio Code. To do this you go to this website [here]( https://code.visualstudio.com/) and follow the installation instructions.
 Once everything is downloaded, open it up and it should look something like this.
 ![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1063220050061951038/image.png)
+Keep in mind that when you open up VS Code, it may look slightly different from this screenshot.
+
+## Remotely Connecting
+Now that VS Code is installed, we will learn how to connect your terminal to a remote server in the case that you need to use a speciifc system or device.
+First, if you are on a Windows device, you will need to install git
