@@ -9,10 +9,10 @@ Keep in mind that when you open up VS Code, it may look slightly different from 
 
 ## Remotely Connecting
 Now that VS Code is installed, we will learn how to connect your terminal to a remote server in the case that you need to use a speciifc system or device.
-First, if you are on a Windows device, you will need to install [git](https://gitforwindows.org/) and make it so that your terminal uses git bash by default which you can find instructions to [here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
-Next, we will start using ssh to connect to the remote server.
-First, you want to open up a new terminal by either using the hotkey (Ctrl/Command + `) or you can open the "Terminal" tab at the top of VS Code and select "New Terminal". 
-In your new terminal, enter the command
+* First, if you are on a Windows device, you will need to install [git](https://gitforwindows.org/) and make it so that your terminal uses git bash by default which you can find instructions to [here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
+* Next, we will start using ssh to connect to the remote server.
+* First, you want to open up a new terminal by either using the hotkey (Ctrl/Command + `) or you can open the "Terminal" tab at the top of VS Code and select "New Terminal". 
+* In your new terminal, enter the command
 ```
 $ssh cs15lwi___@ieng6.ucsd.edu
 ```
