@@ -19,25 +19,26 @@ where "aua" are the letters that pertain to my course specific account which I f
 Once I entered the command, this prompt showed up:
 ![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1063220050061951038/image.png)
 
-Next I just typed "yes" into the terminal and hit enter.
+Next, I just typed "yes" into the terminal and hit enter.  
 
+
+* After this, a prompt for a password appeared, but when I tried to enter my password it ended up not working because you have to reset your password even if you already know it. If you try to enter an inccorect password, it will simply give another password prompt in the next line until it eventually gives you a message about a disconnection.
 
 [How to reset your password](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
 
-It will then prompt you for your password, which will be the password that you just set your course account to.
-Keep in mind that when you type your password, you won't be able to see anything being typed in the terminal. Just type in your password normally and once it works you should see a message like this:
-![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1063225400706220104/image.png)
+Once I restarted my password, I waited a few minutes and tried again, giving me this message:
 
-If you entered the wrong password, another Password: prompt will appear in the terminal. If you enter the wrong password too many times, it will close the connection. You may need to wait a few more minutes for your password to update or you might want to try to reset your password again.
-
-You may also get a message like this if you have failed the password check a few times but eventually log in:
 ![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1063225963808309329/image.png)
 
-Once you have successfully completed the steps up to this point, your terminal will be connected to the terminal of a computer in the CSE basement. This means that any command you run in the terminal, while connected remotely, will be ran as if it were done on the CSE basement computer.
+This meant that I successfully connected to the terminal.
 
 ## Trying Some Commands
 
-Now that your terminal is connected, you can try running some commands
+Now that my terminal was connected, I tried a few commands in the remote terminal, and compared the results to when the commands were run on my device.
+
+![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1063729730362282045/image.png)
+![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1063722382080094238/image.png)
+
 
 
 
