@@ -50,7 +50,8 @@ This first image shows the result of when I enter the commands through the remot
 This next image shows the result of when I enter the commands through my own terminal:
 ![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1063722382080094238/image.png)
 
-We can that in the first image, all the commands executed without error, and when I tried to go into the directory of my group member, permission was denied
+We can that in the first image, all the commands executed without error, and when I tried to go into the directory of my group member, permission was denied.
+
 When I tried those same commands on my own terminal, I recieved errors on almost all the commands since it tried to find paths that were not on my device.
 
 
