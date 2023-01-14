@@ -45,9 +45,13 @@ ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23aut ("a
 cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 ```
+This first image shows the result of when I enter the commands through the remote server:
 ![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1063729730362282045/image.png)
+This next image shows the result of when I enter the commands through my own terminal:
 ![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1063722382080094238/image.png)
 
+We can that in the first image, all the commands executed without error, and when I tried to go into the directory of my group member, permission was denied
+When I tried those same commands on my own terminal, I recieved errors on almost all the commands since it tried to find paths that were not on my device.
 
 
 
