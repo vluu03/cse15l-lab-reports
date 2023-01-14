@@ -36,6 +36,11 @@ If you entered the wrong password, another Password: prompt will appear in the t
 You may also get a message like this if you have failed the password check a few times but eventually log in:
 ![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1063225963808309329/image.png)
 
+Once you have successfully completed the steps up to this point, your terminal will be connected to the terminal of a computer in the CSE basement. This means that any command you run in the terminal, while connected remotely, will be ran as if it were done on the CSE basement computer.
+
+## Trying Some Commands
+
+Now that your terminal is connected, you can try running some commands
 
 
 
