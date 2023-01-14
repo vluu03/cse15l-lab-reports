@@ -35,7 +35,16 @@ This meant that I successfully connected to the terminal.
 ## Trying Some Commands
 
 Now that my terminal was connected, I tried a few commands in the remote terminal, and compared the results to when the commands were run on my device.
-
+```
+Here are the commands I tried:
+cd ~
+cd
+ls -lat
+ls -a
+ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23aut ("aut" being the letters from the account of another group member)
+cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
+cat /home/linux/ieng6/cs15lwi23/public/hello.txt
+```
 ![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1063729730362282045/image.png)
 ![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1063722382080094238/image.png)
 
