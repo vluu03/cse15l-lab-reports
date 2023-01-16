@@ -4,7 +4,7 @@ This tutorial will show you how to connect your terminal to remote server.
 ## VSCode
 * To begin this tutorial we will first need to get Visual Studio Code. I did this by going to this website [here]( https://code.visualstudio.com/) and following the installation instructions.
 * Once everything was downloaded, I opened it up and it looked like this.
-![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1063532251826106429/VSCode_Tutorial.png)
+![Image](VSCode_Tutorial.png)
 Keep in mind that when you open up VS Code, it may look slightly different from this screenshot.
 
 ## Remotely Connecting
@@ -17,7 +17,7 @@ $ ssh cs15lwiaua@ieng6.ucsd.edu
 (Do not include the "$" in your terminal)
 where "aua" are the letters that pertain to my course specific account which I found at [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
 Once I entered the command, this prompt showed up:
-![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1063220050061951038/image.png)
+![Image](Remote_Access.png)
 
 Next, I just typed "yes" into the terminal and hit enter.  
 
@@ -28,7 +28,7 @@ Next, I just typed "yes" into the terminal and hit enter.
 
 Once I restarted my password, I waited a few minutes and tried again, giving me this message:
 
-![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1063225963808309329/image.png)
+![Image](Remote_Access.png)
 
 This meant that I successfully connected to the terminal.
 
@@ -46,9 +46,9 @@ cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 ```
 This first image shows the result of when I enter the commands through the remote server:
-![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1063729730362282045/image.png)
+![Image](Command_Test1.png)
 This next image shows the result of when I enter the commands through my own terminal:
-![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1063722382080094238/image.png)
+![Image](Command_Test2.png)
 
 We can that in the first image, all the commands executed without error, and when I tried to go into the directory of my group member, permission was denied.
 
