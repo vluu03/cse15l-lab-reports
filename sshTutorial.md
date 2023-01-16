@@ -17,7 +17,7 @@ $ ssh cs15lwiaua@ieng6.ucsd.edu
 (Do not include the "$" in your terminal)
 where "aua" are the letters that pertain to my course specific account which I found at [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
 Once I entered the command, this prompt showed up:
-![Image](Remote_Access.png)
+![Image](Yes.png)
 
 Next, I just typed "yes" into the terminal and hit enter.  
 
@@ -28,7 +28,7 @@ Next, I just typed "yes" into the terminal and hit enter.
 
 Once I restarted my password, I waited a few minutes and tried again, giving me this message:
 
-![Image](Yes.png)
+![Image](Remote_Access.png)
 
 This meant that I successfully connected to the terminal.
 
