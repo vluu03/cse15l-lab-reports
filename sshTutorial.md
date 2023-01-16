@@ -47,6 +47,7 @@ cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 ```
 This first image shows the result of when I enter the commands through the remote server:
 ![Image](Command_Test1.png)
+
 This next image shows the result of when I enter the commands through my own terminal:
 ![Image](Command_Test2.png)
 
