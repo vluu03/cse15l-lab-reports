@@ -28,7 +28,7 @@ Next, I just typed "yes" into the terminal and hit enter.
 
 Once I restarted my password, I waited a few minutes and tried again, giving me this message:
 
-![Image](Remote_Access.png)
+![Image](Yes.png)
 
 This meant that I successfully connected to the terminal.
 
