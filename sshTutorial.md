@@ -12,7 +12,7 @@ Now that VS Code is installed, we will learn how to connect your terminal to a r
 * First, since I am using a Windows device, I needed to install [git](https://gitforwindows.org/) and made it so that your terminal uses git bash by default which you can find instructions to [here](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
 * Next, I opened up a new terminal by opening the "Terminal" tab at the top of VS Code and selected "New Terminal".  Then entered the command: 
 ```
-$ ssh cs15lwiaua@ieng6.ucsd.edu
+$ ssh cs15lwi23aua@ieng6.ucsd.edu
 ```
 (Do not include the "$" in your terminal)
 where "aua" are the letters that pertain to my course specific account which I found at [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
