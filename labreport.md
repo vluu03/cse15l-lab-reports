@@ -1,8 +1,8 @@
-#Lab Report 2 (Part 1)
+# Lab Report 2 (Part 1)
 
-#Lab Report 2 (Part 2)
+# Lab Report 2 (Part 2)
 
-##Debugging
+## Debugging
 I will be testing and identifying the bugs from the method reverseInPlace method in ArrayExamples.java
 For this method, the failure inducing input I used was:
 ```
@@ -22,7 +22,9 @@ ArrayExamples.reverseInPlace(input1);
 assertArrayEquals(new int[]{ 3 }, input1);
 ```
 Here is the result of running the JUnit tests:
+
 ![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1068818968774721566/image.png)
+
 ![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1068293992078381116/image.png)
 
 ```
