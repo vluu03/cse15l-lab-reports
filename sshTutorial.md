@@ -41,8 +41,8 @@ Now that my terminal was connected, I tried a few commands in the remote termina
 Here are the commands I tried:
 cd ~  //changes directory to home directory
 cd  //Since there is no directory listed after cd, you will stay in the same directory
-ls -lat  //
-ls -a  //ls will show all the files in the current directory, adding -a will show all the hidden files in the directory as well as adding as "." to the name
+ls -lat  //lists all files within the current directory as well as adding as "." to the name, including hidden files
+ls -a  //lists all files in the directory as well as adding as "." to the name, including hidden files
 ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23aut ("aut" being the letters from the account of another group member) //This tries to access the directory of another student's account
 cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/   //Makes a copy of the file hello.txt to home directory
 cat /home/linux/ieng6/cs15lwi23/public/hello.txt  //Prints the content of hello.txt
