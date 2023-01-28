@@ -1,4 +1,16 @@
 # Lab Report 2 (Part 1)
+Here is the code I used to make my webserver:
+
+![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1069037329555128432/image.png)
+
+Here is the webserver in action:
+First Use:
+
+![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1069038114594631780/image.png)
+
+Second Use:
+
+![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1069038233368936499/image.png)
 
 # Lab Report 2 (Part 2)
 
