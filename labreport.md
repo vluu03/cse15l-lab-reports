@@ -109,8 +109,8 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
-This change addresses the issue because arr now gets assigned the values of a copy of the array
-which means that the changed values of arr won't be included when taking the elements in reverse order.
+This change addresses the issue because ```arr``` now gets assigned the values of a copy of the array
+which means that the changed values of ```arr``` won't be included when taking the elements in reverse order.
 
 # Lab Report 2 (Part 3)
 
