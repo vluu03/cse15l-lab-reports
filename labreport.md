@@ -23,7 +23,7 @@ stringList.add(string_num,parameters[1]);
 String.join("\n",stringList);
 ```
 The arguments in these methods are:
-* url (url of the webserver)
+* url (URL of the webserver)
 * "/add-message" (string of path)
 * "=" (part of query)
 * "s" (part of query)
@@ -52,7 +52,7 @@ stringList.add(string_num,parameters[1]);
 String.join("\n",stringList);
 ```
 And similarly, the arguments in these methods are:
-* url (url of the webserver)
+* url (URL of the webserver)
 * "/add-message" (string of path)
 * "=" (part of query)
 * "s" (part of query)
