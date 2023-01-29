@@ -4,13 +4,64 @@ Here is the code I used to make my webserver:
 ![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1069037329555128432/image.png)
 
 Here is the webserver in action:
+
 First Use:
 
 ![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1069038114594631780/image.png)
 
+For this use, the called methods are:
+```
+//Checks if "/add-message" is in the path of the url
+url.getPath().contains("/add-message");
+//Separtes the query in the url using "="
+url.getQuery().split("=");
+//Checks if there is an "s" located before the "=" in the url
+parameter[0].equals("s");
+//Adds the string put in after "=" and stores it in an ArrayList called stringList
+stringList.add(string_num,parameters[1]);
+//Joins together the elements in the ArrayList as strings and adds a new line after every //element
+String.join("\n",stringList);
+```
+The arguments in these methods are:
+* url (url of the webserver)
+* "/add-message" (string of path)
+* "=" (part of query)
+* "s" (part of query)
+* string_num (keeps track of index of stringList)
+* parameters[1] (string that gets added to stringList)
+* "\n" (Delimiter to put a new line between each string)
+* stringList (ArrayList of strings from the query)
+
+From this first use, the stringList gets changed by adding the string from the query "Penguins" and string_num gets incremented. The rest of the values stay the same because they are fixed parts of the url for this request.
+
 Second Use:
 
 ![Image](https://cdn.discordapp.com/attachments/1063006870299758622/1069038233368936499/image.png)
+
+For this second use, similar methods were called:
+```
+//Checks if "/add-message" is in the path of the url
+url.getPath().contains("/add-message");
+//Separtes the query in the url using "="
+url.getQuery().split("=");
+//Checks if there is an "s" located before the "=" in the url
+parameter[0].equals("s");
+//Adds the string put in after "=" and stores it in an ArrayList called stringList
+stringList.add(string_num,parameters[1]);
+//Joins together the elements in the ArrayList as strings and adds a new line after every //element
+String.join("\n",stringList);
+```
+And similarly, the arguments in these methods are:
+* url (url of the webserver)
+* "/add-message" (string of path)
+* "=" (part of query)
+* "s" (part of query)
+* string_num (keeps track of index of stringList)
+* parameters[1] (string that gets added to stringList)
+* "\n" (Delimiter to put a new line between each string)
+* stringList (ArrayList of strings from the query)
+
+In this second run of the request, stringList is changed again to add "are_cool" to the 2nd index and string_num gets incremented again. And like before, the rest of the arguments remain the same for this request.
 
 # Lab Report 2 (Part 2)
 
@@ -60,3 +111,7 @@ static void reverseInPlace(int[] arr) {
 ```
 This change addresses the issue because arr now gets assigned the values of a copy of the array
 which means that the changed values of arr won't be included when taking the elements in reverse order.
+
+# Lab Report 2 (Part 3)
+
+Something that I learned from lab 
