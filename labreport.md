@@ -110,7 +110,9 @@ static void reverseInPlace(int[] arr) {
   }
 ```
 This change addresses the issue because ```arr``` now gets assigned the values of a copy of the array
-which means that the changed values of ```arr``` won't be included when taking the elements in reverse order.
+which means that the changed values of ```arr``` won't be included when taking the elements in reverse order. The reason ```int[] input1 = { 3 }; ``` 
+did not cause a fail in the test is because there is only one elements which means that it is essentially assigning ```arr[0] = arr[0]; ``` 
+which would end up passing the test since the reverse of an array with one element is the same array.
 
 # Lab Report 2 (Part 3)
 
