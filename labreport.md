@@ -114,4 +114,4 @@ which means that the changed values of arr won't be included when taking the ele
 
 # Lab Report 2 (Part 3)
 
-Something that I learned from lab 
+I learned a lot of new things from lab, specfically from lab 2. For example, I learned about the structure of URL's and the code that goes behind these URLs. I also learned about how the path affects where the user goes within the website and how query of the URL can alter the website in many different ways. In lab 3, I learned more about how debugging works, and how simply passing a methed test doesn't mean that it behaves as intended.
