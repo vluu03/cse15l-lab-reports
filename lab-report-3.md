@@ -11,12 +11,15 @@ For this lab report I will be showing the following command-line options:
 * ```grep -r //Recursivly search for the string or pattern in all the subdirectories of the current directory```
 * ```grep -n //Shows the line number of the string or pattern within the file```
 
-I learned about these commands on [this website](https://man7.org/linux/man-pages/man1/grep.1.html)
+I learned about all of these commands on [this website](https://man7.org/linux/man-pages/man1/grep.1.html)
+I searched up "grep command line options" in google and chose one of the top options.
 
 ## Commands In Use
 
 ```grep -i```:
 This command-line option is useful for situations where you want to search for a string or pattern and don't know or care about whether there are any capital letters.
+
+I found this command [here](https://man7.org/linux/man-pages/man1/grep.1.html)
 
 ```
 $ grep -i "lucayans" skill-demo1-data/written_2/*/*/*.txt
@@ -32,6 +35,8 @@ skill-demo1-data/written_2/travel_guides/berlitz2/Amsterdam-History.txt:In 1275 
 
 ```grep -c```
 This command-line option is useful when you want to see which files have a string or pattern and how many times it is used. It also presents that information without printing the contents of the files, making it much easier and faster to see the information compared to a normal ```grep```.
+
+I found this command [here](https://man7.org/linux/man-pages/man1/grep.1.html)
 
 ```
 $ grep "Talia" -c  skill-demo1-data/written_2/non-fiction/OUP/Berk/*.txt
@@ -54,6 +59,8 @@ skill-demo1-data/written_2/non-fiction/OUP/Fletcher/ch9.txt:2
 ```grep -r```
 This command-line option is useful for situations where you want to search for all the files within a directory, but don't want to constantly type out the path of the file. This makes searching for a string or pattern within a directory much faster than typing out a full path.
 
+I found this command [here](https://man7.org/linux/man-pages/man1/grep.1.html)
+
 ```
 $ grep "Lucayans" -r
 skill-demo1-data/written_2/travel_guides/berlitz2/Bahamas-History.txt:Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. Columbus claimed the island and others in the Bahamas for his royal Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
@@ -67,6 +74,8 @@ skill-demo1-data/written_2/non-fiction/OUP/Fletcher/ch6.txt:New Orleans Butchers
 
 ```grep -n```
 This command-line option is useful for finding the exact location of a string or pattern within a file by showing you the line number of that string.
+
+I found this command [here](https://man7.org/linux/man-pages/man1/grep.1.html)
 
 ```
 $ grep "Nationhood" -n skill-demo1-data/written_2/non-fiction/OUP/*/*.txt
