@@ -11,6 +11,8 @@ For this lab report I will be showing the following command-line options:
 * ```grep -r //Recursivly search for the string or pattern in all the subdirectories of the current directory```
 * ```grep -n //Shows the line number of the string or pattern within the file```
 
+I learned about these commands on this [website](https://man7.org/linux/man-pages/man1/grep.1.html)
+
 ## Commands In Use
 
 ```grep -v```:
