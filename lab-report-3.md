@@ -6,7 +6,7 @@ For this lab report, I will be finding and showcasing some command-line options 
 
 For this lab report I will be showing the following command-line options:
 
-* ```grep -o //Shows only the files with the string or pattern```
+* ```grep -i //Makes the string or pattern case-insensitive```
 * ```grep -c //Shows only the count the lines with the string or pattern```
 * ```grep -r //Recursivly search for the string or pattern in all the subdirectories of the current directory```
 * ```grep -n //Shows the line number of the string or pattern within the file```
