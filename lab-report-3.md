@@ -34,7 +34,7 @@ skill-demo1-data/written_2/travel_guides/berlitz2/Amsterdam-History.txt:In 1275 
 
 
 
-```grep -c```
+```grep -c```:
 This command-line option is useful when you want to see which files have a string or pattern and how many times it is used. It also presents that information without printing the contents of the files, making it much easier and faster to see the information compared to a normal ```grep```.
 
 I found this command [here](https://man7.org/linux/man-pages/man1/grep.1.html)
@@ -59,7 +59,7 @@ skill-demo1-data/written_2/non-fiction/OUP/Fletcher/ch9.txt:2
 
 
 
-```grep -r```
+```grep -r```:
 This command-line option is useful for situations where you want to search for all the files within a directory, but don't want to constantly type out the path of the file. This makes searching for a string or pattern within a directory much faster than typing out a full path.
 
 I found this command [here](https://man7.org/linux/man-pages/man1/grep.1.html)
@@ -77,7 +77,7 @@ skill-demo1-data/written_2/non-fiction/OUP/Fletcher/ch6.txt:New Orleans Butchers
 
 
 
-```grep -n```
+```grep -n```:
 This command-line option is useful for finding the exact location of a string or pattern within a file by showing you the line number of that string.
 
 I found this command [here](https://man7.org/linux/man-pages/man1/grep.1.html)
