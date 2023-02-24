@@ -60,7 +60,10 @@ To run the JUnit tests of the forked repository, I first changed into the direct
  ```
  java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
  ```
- in the same way as the previous command.
+ in the same way as the previous command. And it showed one of the tests failing.
+ 
+ ![image](https://user-images.githubusercontent.com/122576325/221313251-32d841b0-d894-4164-94d8-c415cab1f4ca.png)
+
   
   
 
