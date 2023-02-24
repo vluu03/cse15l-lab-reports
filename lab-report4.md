@@ -20,7 +20,7 @@ then in the top right side of the screen click "Fork" and click "Create Fork"
 ## The Real Deal
 
 # 3. Start the timer
-Have a timer ready to start
+Started the timer on my phone.
 
 # 4. Log into ieng6
 In my local terminal I typed
@@ -28,6 +28,7 @@ In my local terminal I typed
 ssh cs15lwi23aua@ieng6.ucsd.edu
 ```
 I hit ```<Enter>``` and it logged me in without having to type a password
+
   ![image](https://user-images.githubusercontent.com/122576325/221056459-8bd39638-ff27-4a3c-80e1-c1763e032b62.png)
 
 # 5. Clone the fork of the repository
@@ -36,9 +37,11 @@ To clone the fork in my repository, I went to the terminal and typed in
 git clone git@github.com:vluu03/lab7.git
 ```
   and hit ```<Enter>```
+  
   ![image](https://user-images.githubusercontent.com/122576325/221057318-3a6fdef2-52db-416a-bdd9-04a8eed2d4a2.png)
 
   I got the url from the forked github repository page found here:
+  
   ![image](https://user-images.githubusercontent.com/122576325/221056914-83dc7e31-1cd0-41a0-b7fb-d07581fa4a39.png)
  
 
