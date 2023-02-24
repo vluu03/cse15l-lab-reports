@@ -82,8 +82,28 @@ This should replace ```index1``` with ```index2```, making the line of code ```i
 
 Finally, I save and exit out of the code by pressing:
 ```ctrl-o``` ```<enter>``` then ```ctrl-x```
+I then compiled the file by typing in ```javac L``` then ```<tab>``` to auto complete it to ```javac ListExamples```, then I added in a "." then hit ```<tab>``` to make it complete to ```javac ListExamples.java``` 
 
 # 8. Running the tests again
+
+To run the tests again, I just pressed ```<Up> <Up> <enter>```
+
+![image](https://user-images.githubusercontent.com/122576325/221320587-f9d66cd2-115a-4741-a3d1-73c31bbfbb8e.png)
+
+# 9. Commiting and pushing the changes
+
+To push the changes to the github repository, I first typed 
+```git add L``` then ```<tab>``` then added in ".j" and ```<tab>``` to auto complete to 
+```git add ListExamples.java``` then pressed ```<enter>```
+
+Next, I typed ```git commit -m "/"``` then ```<enter>```
+I used "/" as the commit message since it was the closest to the " key.
+
+Finally, I typed ```git push origin main``` and pressed ```<enter>```
+
+![image](https://user-images.githubusercontent.com/122576325/221320884-0b76f42d-45af-4fc5-910d-8a6b39c1c050.png)
+
+
 
  
 
