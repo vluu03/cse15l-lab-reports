@@ -27,7 +27,7 @@ In my local terminal I typed
 ```
 ssh cs15lwi23aua@ieng6.ucsd.edu
 ```
-I hit <Enter> and it logged me in without having to type a password
+I hit < Enter > and it logged me in without having to type a password
   ![image](https://user-images.githubusercontent.com/122576325/221056459-8bd39638-ff27-4a3c-80e1-c1763e032b62.png)
 
 # 5. Clone the fork of the repository
@@ -35,7 +35,7 @@ To clone the fork in my repository, I went to the terminal and typed in
 ```
 git clone git@github.com:vluu03/lab7.git
 ```
-  and hit <Enter>
+  and hit < Enter >
   ![image](https://user-images.githubusercontent.com/122576325/221057318-3a6fdef2-52db-416a-bdd9-04a8eed2d4a2.png)
 
   I got the url from the forked github repository page found here:
@@ -47,7 +47,7 @@ To run the JUnit tests of the forked repository, I first changed into the direct
   ```
   cd lab7
   ```
-  and hit <Enter>
+  and hit < Enter >
   
   
 
