@@ -45,9 +45,9 @@ git clone git@github.com:vluu03/lab7.git
 # 6. Running the tests
 To run the JUnit tests of the forked repository, I first changed into the directory of the repository by typing
   ```
-  cd lab7
+  cd l
   ```
-  and hit ```<Enter>```
+  then I hit ```<Tab>``` to auto complete to ```lab7``` then ```<Enter>```
  
  Next, I compiled the JUnits tests by copy and pasting in the terminal
  ```
@@ -63,6 +63,30 @@ To run the JUnit tests of the forked repository, I first changed into the direct
  in the same way as the previous command. And it showed one of the tests failing.
  
  ![image](https://user-images.githubusercontent.com/122576325/221313251-32d841b0-d894-4164-94d8-c415cab1f4ca.png)
+ 
+ # 7. Editing the code
+ 
+To edit and fix the bug in the code, I first typed in
+```
+nano L
+```
+then I hit ```<Tab>``` to auto complete it to ```nano ListExamples```, and from there I just put in a ".j" to the end to where it was ```nano ListExamples.j``` and hit ```<Tab>``` again to auto complete it to ```nano ListExamples.java```, then I hit ```<Enter>``` and it takes me to a page like this:
+![image](https://user-images.githubusercontent.com/122576325/221317384-bda6c4fb-cb09-48aa-a8c4-b506473ba130.png)
+
+From here, I pressed ```ctrl - v``` to take me to the next page, then I held ```<Down>``` until I reached the line of code that says ```index1 += 1;``` within the ```while(index2 < list2.size())``` loop, which you could also reach if you press ```<Down>``` 10 times.
+Next, I held ```<Right>``` until the white box was directly to the right of the "1" in ```index1```, which you could also reach by pressing ```<Right>``` 12 times.
+After that, I pressed ```<backspace>``` then ```2```.
+This should replace ```index1``` with ```index2```, making the line of code ```index2 += 1;```, which fixes the bug since the proper index is now getting incremented, meaning there is no more infinite loop.
+
+![image](https://user-images.githubusercontent.com/122576325/221319235-1f11202d-3996-4590-b289-2f62e6728f87.png)
+
+Finally, I save and exit out of the code by pressing:
+```ctrl-o``` ```<enter>``` then ```ctrl-x```
+
+# 8. Running the tests again
+
+ 
+
 
   
   
