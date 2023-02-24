@@ -103,6 +103,11 @@ Finally, I typed ```git push origin main``` and pressed ```<enter>```
 
 ![image](https://user-images.githubusercontent.com/122576325/221320884-0b76f42d-45af-4fc5-910d-8a6b39c1c050.png)
 
+and when I look back to the lab7 repository, I can see the updated message showing it pushed successfully
+
+![image](https://user-images.githubusercontent.com/122576325/221321561-7e702299-5806-4643-ac08-52fc12b688b6.png)
+
+
 
 
  
