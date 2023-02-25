@@ -81,11 +81,11 @@ To edit and fix the bug in the code, I first typed in
 ```
 nano L
 ```
-then I hit ```<Tab>``` to auto complete it to ```nano ListExamples```, and from there I just put in a ".j" to the end to where it was ```nano ListExamples.j``` and hit ```<Tab>``` again to auto complete it to ```nano ListExamples.java```, then I hit ```<Enter>``` and it takes me to a page like this:
+then I hit ```<tab>``` to auto complete it to ```nano ListExamples```, and from there I just put in a ".j" to the end to where it was ```nano ListExamples.j``` and hit ```<Tab>``` again to auto complete it to ```nano ListExamples.java```, then I hit ```<Enter>``` and it takes me to a page like this:
 ![image](https://user-images.githubusercontent.com/122576325/221317384-bda6c4fb-cb09-48aa-a8c4-b506473ba130.png)
 
 From here, I pressed ```ctrl - v``` to take me to the next page, then I held ```<Down>``` until I reached the line of code that says ```index1 += 1;``` within the ```while(index2 < list2.size())``` loop, which you could also reach if you press ```<Down>``` 10 times.
-Next, I held ```<Right>``` until the white box was directly to the right of the "1" in ```index1```, which you could also reach by pressing ```<Right>``` 12 times.
+Next, I held ```<Right>``` until the white box was directly to the right of the "1" in ```index1```, which you could also reach by pressing ```<right>``` 12 times.
 After that, I pressed ```<backspace>``` then ```2```.
 This should replace ```index1``` with ```index2```, making the line of code ```index2 += 1;```, which fixes the bug since the proper index is now getting incremented, meaning there is no more infinite loop.
 
@@ -98,7 +98,7 @@ I then compiled the file by typing in ```javac L``` then ```<tab>``` to auto com
 # 8. Running the tests again
 Keys Pressed: ```<up>, <up>, <enter>```
 
-To run the tests again, I just pressed ```<Up> <Up> <enter>```
+To run the tests again, I just pressed ```<up> <up> <enter>```
 
 ![image](https://user-images.githubusercontent.com/122576325/221320587-f9d66cd2-115a-4741-a3d1-73c31bbfbb8e.png)
 
