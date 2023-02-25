@@ -23,41 +23,48 @@ then in the top right side of the screen click "Fork" and click "Create Fork"
 Started the timer on my phone.
 
 # 4. Log into ieng6
-In my local terminal I typed
+Keys Pressed: ```<ctrl-c>,<right-click>,<enter>```
+
+In my local terminal I copy and pasted my login information from a separate document by highlighting the text, then using
+```<ctrl-c>``` to copy and ```<right-click>``` to paste in the terminal and hit <enter> to execute the command.
 ```
 ssh cs15lwi23aua@ieng6.ucsd.edu
 ```
-I hit ```<Enter>``` and it logged me in without having to type a password
+and it logged me in without having to type a password
 
-  ![image](https://user-images.githubusercontent.com/122576325/221056459-8bd39638-ff27-4a3c-80e1-c1763e032b62.png)
+![image](https://user-images.githubusercontent.com/122576325/221056459-8bd39638-ff27-4a3c-80e1-c1763e032b62.png)
 
 # 5. Clone the fork of the repository
-To clone the fork in my repository, I went to the terminal and typed in 
+Keys Pressed: ```<ctrl-c>,<right-click>,<enter>```
+
+To clone the fork in my repository, I copy and pasted the command 
 ```
 git clone git@github.com:vluu03/lab7.git
 ```
-  and hit ```<Enter>```
+in a similar fashion to the way I copy and pasted the ssh login
   
-  ![image](https://user-images.githubusercontent.com/122576325/221057318-3a6fdef2-52db-416a-bdd9-04a8eed2d4a2.png)
+![image](https://user-images.githubusercontent.com/122576325/221057318-3a6fdef2-52db-416a-bdd9-04a8eed2d4a2.png)
 
-  I got the url from the forked github repository page found here:
+I got the url from the forked github repository page found here:
   
-  ![image](https://user-images.githubusercontent.com/122576325/221056914-83dc7e31-1cd0-41a0-b7fb-d07581fa4a39.png)
+![image](https://user-images.githubusercontent.com/122576325/221056914-83dc7e31-1cd0-41a0-b7fb-d07581fa4a39.png)
  
 
 # 6. Running the tests
+Keys Pressed: ```cd l, <tab>, <enter>, <ctrl-c>, <right-click>, <enter>, <ctrl-c>, <right-click>, <enter>
+
 To run the JUnit tests of the forked repository, I first changed into the directory of the repository by typing
   ```
   cd l
   ```
-  then I hit ```<Tab>``` to auto complete to ```lab7``` then ```<Enter>```
+  then I hit ```<tab>``` to auto complete to ```lab7``` then ```<enter>```
  
  Next, I compiled the JUnits tests by copy and pasting in the terminal
  ```
  javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
  ```
- I used ```ctrl-c``` to copy the command and ```<Right-Click>``` in the terminal
- to paste the command in, then used ```<Enter>``` to execute the command
+ I used ```<ctrl-c>``` to copy the command and ```<right-click>``` in the terminal
+ to paste the command in
  
  I ran these tests by copy and pasting in the terminal
  ```
@@ -68,6 +75,7 @@ To run the JUnit tests of the forked repository, I first changed into the direct
  ![image](https://user-images.githubusercontent.com/122576325/221313251-32d841b0-d894-4164-94d8-c415cab1f4ca.png)
  
  # 7. Editing the code
+ Keys Pressed: ```nano L, <tab>, .j, <tab>, <enter>, <ctrl-v>, <down> x10, <right> x12, <backspace>, 2, <ctrl-o>, <enter>, <ctrl-x>, javac L, <tab>, ., <tab>, <enter>
  
 To edit and fix the bug in the code, I first typed in
 ```
@@ -84,8 +92,8 @@ This should replace ```index1``` with ```index2```, making the line of code ```i
 ![image](https://user-images.githubusercontent.com/122576325/221319235-1f11202d-3996-4590-b289-2f62e6728f87.png)
 
 Finally, I save and exit out of the code by pressing:
-```ctrl-o``` ```<enter>``` then ```ctrl-x```
-I then compiled the file by typing in ```javac L``` then ```<tab>``` to auto complete it to ```javac ListExamples```, then I added in a "." then hit ```<tab>``` to make it complete to ```javac ListExamples.java``` 
+```<ctrl-o>``` ```<enter>``` then ```ctrl-x```
+I then compiled the file by typing in ```javac L``` then ```<tab>``` to auto complete it to ```javac ListExamples```, then I added in a "." then hit ```<tab>``` to make it complete to ```javac ListExamples.java``` and pressed <enter> to execute the command.
 
 # 8. Running the tests again
 
