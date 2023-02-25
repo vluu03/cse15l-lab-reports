@@ -74,8 +74,8 @@ To run the JUnit tests of the forked repository, I first changed into the direct
  
  ![image](https://user-images.githubusercontent.com/122576325/221313251-32d841b0-d894-4164-94d8-c415cab1f4ca.png)
  
- # 7. Editing the code
- Keys Pressed: ```nano L, <tab>, .j, <tab>, <enter>, <ctrl-v>, <down> x10, <right> x12, <backspace>, 2, <ctrl-o>, <enter>, <ctrl-x>, javac L, <tab>, ., <tab>, <enter>```
+# 7. Editing the code
+Keys Pressed: ```nano L, <tab>, .j, <tab>, <enter>, <ctrl-v>, <down> x10, <right> x12, <backspace>, 2, <ctrl-o>, <enter>, <ctrl-x>, javac L, <tab>, ., <tab>, <enter>```
  
 To edit and fix the bug in the code, I first typed in
 ```
