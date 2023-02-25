@@ -1,5 +1,5 @@
 ## Setup
-# 1 Delete existing repository
+# 1. Delete existing repository
 To delete the exisiting forked repository first go to the repository page labeled "lab7" then click settings:
 ![image](https://user-images.githubusercontent.com/122576325/221054502-b2005fe0-af34-47a0-8537-072c066c9576.png)
 
@@ -11,7 +11,7 @@ on the button that says "I understand the consequences, delete this repository"
 ![image](https://user-images.githubusercontent.com/122576325/221055019-db492111-3b03-4990-89dc-44c9f5f22a51.png)
 
 
-# 2 Create new repository
+# 2. Create new repository
 Next you want to fork your repository again, go to the repository you want to fork
 then in the top right side of the screen click "Fork" and click "Create Fork"
 ![image](https://user-images.githubusercontent.com/122576325/221055211-2b5b248a-e810-4dbf-953c-5a28cc038824.png)
