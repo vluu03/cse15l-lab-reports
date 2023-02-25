@@ -51,7 +51,7 @@ I got the url from the forked github repository page found here:
  
 
 # 6. Running the tests
-Keys Pressed: ```cd l, <tab>, <enter>, <ctrl-c>, <right-click>, <enter>, <ctrl-c>, <right-click>, <enter>
+Keys Pressed: ```cd l, <tab>, <enter>, <ctrl-c>, <right-click>, <enter>, <ctrl-c>, <right-click>, <enter>```
 
 To run the JUnit tests of the forked repository, I first changed into the directory of the repository by typing
   ```
@@ -75,7 +75,7 @@ To run the JUnit tests of the forked repository, I first changed into the direct
  ![image](https://user-images.githubusercontent.com/122576325/221313251-32d841b0-d894-4164-94d8-c415cab1f4ca.png)
  
  # 7. Editing the code
- Keys Pressed: ```nano L, <tab>, .j, <tab>, <enter>, <ctrl-v>, <down> x10, <right> x12, <backspace>, 2, <ctrl-o>, <enter>, <ctrl-x>, javac L, <tab>, ., <tab>, <enter>
+ Keys Pressed: ```nano L, <tab>, .j, <tab>, <enter>, <ctrl-v>, <down> x10, <right> x12, <backspace>, 2, <ctrl-o>, <enter>, <ctrl-x>, javac L, <tab>, ., <tab>, <enter>```
  
 To edit and fix the bug in the code, I first typed in
 ```
@@ -96,12 +96,14 @@ Finally, I save and exit out of the code by pressing:
 I then compiled the file by typing in ```javac L``` then ```<tab>``` to auto complete it to ```javac ListExamples```, then I added in a "." then hit ```<tab>``` to make it complete to ```javac ListExamples.java``` and pressed <enter> to execute the command.
 
 # 8. Running the tests again
+Keys Pressed: ```<up>, <up>, <enter>```
 
 To run the tests again, I just pressed ```<Up> <Up> <enter>```
 
 ![image](https://user-images.githubusercontent.com/122576325/221320587-f9d66cd2-115a-4741-a3d1-73c31bbfbb8e.png)
 
 # 9. Commiting and pushing the changes
+Keys Pressed: ```git add L, <tab>, .j, <tab>, <enter>, git commit -m "/", <enter>, git push origin main, <enter>```
 
 To push the changes to the github repository, I first typed 
 ```git add L``` then ```<tab>``` then added in ".j" and ```<tab>``` to auto complete to 
