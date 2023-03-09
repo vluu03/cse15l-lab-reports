@@ -37,6 +37,15 @@ $ find . -type d
 ./travel_guides/berlitz2
 ```
 
+```
+$ find . -type f -name "ch1.txt"
+./non-fiction/OUP/Abernathy/ch1.txt
+./non-fiction/OUP/Berk/ch1.txt
+./non-fiction/OUP/Fletcher/ch1.txt
+./non-fiction/OUP/Kauffman/ch1.txt
+./non-fiction/OUP/Rybczynski/ch1.txt
+```
+
 ```find -exec```: This command-line option is useful for situation where you want to execute a command on a file such as displaying the contents of the file, like what I did below.
 
 I found this command [here](https://ss64.com/bash/find.html)
@@ -58,6 +67,19 @@ $ find ./travel_guides/berlitz1/ -name "HandRIbiza.txt" -exec cat {} \;
         ✪✪✪more than 8,000 ptas.
 ```
 
+```
+$ find ./non-fiction/OUP/Abernathy/ -name "*.txt" -exec echo {} \;
+./non-fiction/OUP/Abernathy/ch1.txt
+./non-fiction/OUP/Abernathy/ch14.txt
+./non-fiction/OUP/Abernathy/ch15.txt
+./non-fiction/OUP/Abernathy/ch2.txt
+./non-fiction/OUP/Abernathy/ch3.txt
+./non-fiction/OUP/Abernathy/ch6.txt
+./non-fiction/OUP/Abernathy/ch7.txt
+./non-fiction/OUP/Abernathy/ch8.txt
+./non-fiction/OUP/Abernathy/ch9.txt
+```
+
 ```find -maxdepth```: This command-line option is useful for searching deeply within a directory and its subdirectories without having to know the exact paths.
 
 I found this command [here](https://ss64.com/bash/find.html)
@@ -69,6 +91,11 @@ $ find . -maxdepth 4 -name "ch1.txt"
 ./non-fiction/OUP/Fletcher/ch1.txt
 ./non-fiction/OUP/Kauffman/ch1.txt
 ./non-fiction/OUP/Rybczynski/ch1.txt
+```
+
+```
+$ find . -maxdepth 2 -name "travel_guides"
+./travel_guides
 ```
 
 ```find -and```: This command-line option is useful for cases where you want to search for files that fufill mutiple conditions such as its name or depth.
