@@ -9,7 +9,7 @@ command. I will also be showcasing these different options on the ```/written_2`
 For this lab report, I will be shwoing the following command-line options:
 * ```find -type``` //Finds files or directories of a specified type
 * ```find -exec``` //Allows you to execute a command on a file or directory
-* ```find -maxdepth //Lets you search a directory with a certain amount of depth
+* ```find -maxdepth``` //Lets you search a directory with a certain amount of depth
 * ```find -and``` //Allows you to impose multiple conditions on the find command
 
 I learned about all these commands on [this website](https://ss64.com/bash/find.html). To find this website I just
@@ -18,7 +18,9 @@ searched up "find command line options" in google and chose the top option
 
 ## Commands In Use
 
-```find -type```:
+```find -type```: This command-line options is useful for cases in which you want to only find directories or files, in case there are directories and files that share names
+
+I found this command [here](https://ss64.com/bash/find.html)
 
 ```
 $ find . -type d
@@ -35,7 +37,9 @@ $ find . -type d
 ./travel_guides/berlitz2
 ```
 
-```find -exec```:
+```find -exec```: This command-line option is useful for situation where you want to execute a command on a file such as displaying the contents of the file, like what I did below.
+
+I found this command [here](https://ss64.com/bash/find.html)
 
 ```
 $ find ./travel_guides/berlitz1/ -name "HandRIbiza.txt" -exec cat {} \;
@@ -54,7 +58,9 @@ $ find ./travel_guides/berlitz1/ -name "HandRIbiza.txt" -exec cat {} \;
         ✪✪✪more than 8,000 ptas.
 ```
 
-```find -maxdepth```:
+```find -maxdepth```: This command-line option is useful for searching deeply within a directory and its subdirectories without having to know the exact paths.
+
+I found this command [here](https://ss64.com/bash/find.html)
 
 ```
 $ find . -maxdepth 4 -name "ch1.txt"
@@ -65,7 +71,9 @@ $ find . -maxdepth 4 -name "ch1.txt"
 ./non-fiction/OUP/Rybczynski/ch1.txt
 ```
 
-```find -and```
+```find -and```: This command-line option is useful for cases where you want to search for files that fufill mutiple conditions such as its name or depth.
+
+I found this command [here](https://ss64.com/bash/find.html)
 
 ```
 $ find ./non-fiction/OUP/Berk/ -maxdepth 4 -name "*.txt" -and  -name "ch1.txt"
