@@ -107,3 +107,8 @@ $ find ./non-fiction/OUP/Berk/ -maxdepth 4 -name "*.txt" -and  -name "ch1.txt"
 ./non-fiction/OUP/Berk/ch1.txt
 ```
 
+```
+$ find . -maxdepth 4 -name "Berk" -and -type d
+./non-fiction/OUP/Berk
+```
+
