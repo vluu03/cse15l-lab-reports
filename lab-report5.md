@@ -4,7 +4,7 @@ For this lab report, I will be looking at Lab Report 3 again and this time, inst
 options of the ```grep``` command, like I did last time, I will exploring the options for the ```find```
 command. I will also be showcasing these different options on the ```/written_2``` data repository in bash
 
-## Command-Line Options for find
+## Command-Line Options for ```find```
 
 For this lab report, I will be shwoing the following command-line options:
 * ```find -type``` //Finds files or directories of a specified type
